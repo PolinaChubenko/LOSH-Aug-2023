@@ -45,6 +45,16 @@ int main() {
     bool bad_flag = 0;     // значение false
 }
 ```
+Хм, а что если сделать так?
+```
+int main() {
+    int a = 5;
+    long long b = 10;
+    std::cout << a * b;   // какого типа a * b?
+}
+```
+Ответ:
+
 **Integer promotioin** : ''меньший'' тип приводится к ''большему''
 
 ## if, for, while
