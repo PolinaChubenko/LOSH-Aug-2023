@@ -30,7 +30,9 @@ int main() {
 
 Основные типы, с которым работают:
 
+
 ![types](https://github.com/PolinaChubenko/LOSH-Aug-2023/assets/70897695/433dbb9c-1a54-40f9-ba41-d755057b7dc7)
+
 
 **Integer promotioin** : ''меньший'' тип приводится к ''большему''
 
