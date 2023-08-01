@@ -212,6 +212,35 @@ int main() {
     std::cout << Factorial(5) << "\n";  // 120
 }
 ```
+Вот рекурсивные вызовы уже двух функций:
+```cpp
+#include <iostream>
+
+int g(int a);
+
+int f(int a) {
+    std::cout << a << " ";
+    if (a == 10) {
+        return 1;
+    }
+    return g(a - 2);
+}
+
+int g(int a) {
+    std::cout << a << " ";
+    if (a == 0) {
+        return 0;
+    }
+    return f(a + 5);
+}
+
+
+int main() {
+    int a;
+    a = f(1);
+    std::cout << a;
+}
+```
 
 Рассмотрим интересный пример:
 ```cpp
